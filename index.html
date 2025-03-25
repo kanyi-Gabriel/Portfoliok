@@ -1,0 +1,1252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>kanyi_easy</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./images/kanyi.jpg" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Gabriel Kanyi">Gabriel Kanyi</h1>
+
+          <p class="title">Electrical Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:kanyiegabriel@gmail.com" class="contact-link">kanyiegabriel@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+254 716978786" class="contact-link">+254 716978786</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2002-07-22">July 22, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Tudor, Mombasa, Kenya</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/kanyi-Gabriel" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/gabrielkanyi/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://medium.com/@kanyi" class="social-link">
+              <ion-icon name="logo-medium"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">Bio</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Gabriel is an enthusiastic Electrical Engineer with a deep passion for data science and data analysis. As a dedicated 
+            data professional, he specializes in navigating complex datasets, uncovering hidden patterns, and developing predictive 
+            models that empower businesses with actionable insights.
+          </p>
+
+          <p>
+            His expertise spans data cleaning, organization, and engineering, as well as exploratory data analysis (EDA), data 
+            visualization, and machine learning model development using Python. 
+          </p>
+          
+          <p>
+            Gabriel is known for his strong communication skills, 
+            adept at translating technical concepts into clear insights for non-technical stakeholders.
+            Gabriel aims to continuously embrace new challenges, optimize models, and leverage cutting-edge techniques to drive impactful 
+            results in the data science realm. He is committed to harnessing data for innovative solutions that enhance business performance 
+            and decision-making
+          </p>
+
+        </section>
+        <header>
+          <h2 class = "h2 article-title">Elevator Pitch</h2>
+        </header>
+       <section class = "about-text">
+        <p>
+          Hello, my name is Gabriel Kanyi. I am an enthusiastic Electrical Engineer with a passion for data science and data analysis. 
+          With hands-on experience navigating complex datasets and developing predictive models, I specialize in turning raw data into 
+          actionable insights that drive impactful decisions.
+
+        </p>
+        <p>
+          My top three skills are resilience and grit, problem-solving, and effective communication. These strengths enable me to tackle 
+          challenges head-on, devise innovative solutions, and seamlessly collaborate with both technical and non-technical stakeholders.
+        </p>
+
+        <p>
+          What sets me apart is my unique combination of technical expertise—ranging from Python programming to machine learning model 
+          development—and my ability to simplify complex concepts into clear, actionable insights. I thrive in dynamic environments and 
+          continuously seek opportunities to innovate and deliver value.
+        </p>
+
+        <p>
+          I am confident that my skills will empower your organization to harness data for smarter decision-making and optimize workflows, 
+          making your team’s work more efficient and impactful.
+          If you’re seeking someone who is adaptable, solution-focused, and driven to create measurable results, I would love the opportunity 
+          to contribute to your team or collaborate on impactful projects.
+        </p>
+       </section>
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">Achievements</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./images/Mlicon.jpg
+                " alt="ML icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Machine Learning</h4>
+
+                <p class="service-item-text">
+                  I have created models and analyzed large datasets extracting meaniful insight, identifying trends
+                  and solving complex problems using statistical analysis, machine learning algorithms 
+                  and data visualisation techniques
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./images/analy.jpg" alt="Data Analytic icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analytics</h4>
+
+                <p class="service-item-text">
+                  I have created several data visualization projects to examine and Interpret complex
+                   data to help organisations make informed business decisions
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./images/Mlicon.jpg" alt="Data Engineering" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Engineering</h4>
+
+                <p class="service-item-text">
+                  Capable of designing and maintaining infrastructure such as data pipelines to automate processes
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./images/pythonic.jpg" alt="Python eveloper icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Python Developer</h4>
+
+                <p class="service-item-text">
+                  Pofficient in python Programming for data analysis, 
+                  data manipulation, and creating visualizations and predictive models.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./images/steve.jpg" alt="Steve Kanyi" width="20" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Steve kanyi</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I have had the pleasure of working with Gabriel for the past two years at Mendrah Limited company limited.
+                    Gabriel consistently demonstrates exceptional analytical skills, leveraging tools like Python, SQL, and Excel 
+                    to transform datasets into actionable insights.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./images/njoro.jpg" alt="Peter Kanyi" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Peter Kanyi</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Gabriel was hired to create a corporate identity. We were very pleased with the work done. He has a
+                    lot of experience
+                    and is very concerned about the needs of clients.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./images/kanyiJames.jpg" alt="James Kanyi" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>James Kanyi</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Gabriel's dedication to his work and ability to think creatively set him apart as an outstanding 
+                    professional. He consistently demonstrates resourcefulness and a strong commitment to excellence, 
+                    making every collaboration with him both productive and rewarding
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./images/kirui.jpg" alt="Colins Kirui" width="40" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Collins Kirui</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    I had the opportunity to collaborate with Gabriel on a PCB design project, followed by the documentation phase. 
+                    Gabriel is a hardworking individual whose creativity stands out, particularly when it comes to problem-solving. 
+                    His innovative approach not only simplifies complex tasks but also fosters an efficient and enjoyable working 
+                    environment. It was a pleasure working alongside him.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="40" data-modal-img>
+              </figure>
+
+              <img src="./images/quote.jpg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2022</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Companies</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://www.upwork.com/nx/find-work/">
+                <img src="./images/client2.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./images/fiv.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.linkedin.com/company/mendrah-projects-ltd/">
+                <img src="./images/men2.jpg" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./images/Screenshot (1063).png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Technical University of Mombasa</h4>
+
+              <span>2021 - 2026</span>
+
+              <p class="timeline-text">
+                Bachelor of Science in Electrical and Electronic Engineering:  Deals with the principles and applications of electricity, 
+                electronics, and electromagnetism. Specialized in the design and implementation of systems that regulate the behavior of 
+                other devices or systems. Key areas of study include C++ programming, Statistics, Mathmatics and Signal Processing
+              </p>
+
+            </li>
+
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ALX Africa</h4>
+
+              <span>2025 - 2026</span>
+
+              <p class="timeline-text">
+                Data Science
+              </p>
+
+            </li>
+
+
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">World Quant Universty</h4>
+
+              <span>2024 - 2025</span>
+
+              <p class="timeline-text">
+                During my time studying Data Science at university, I gained hands-on experience in a variety of key areas essential to the field. 
+                The curriculum provided a strong foundation in both the technical and analytical aspects of data science, preparing me to work with 
+                data effectively and make data-driven decisions. Key areas f study include; SQL and database management, machine learning, data visuaization,
+                creating interactive dashboards and python programming
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Njabini Highschool</h4>
+
+              <span>2017 - 2020</span>
+
+              <p class="timeline-text">
+                Acquired Kenya Certificate of Secondary School.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Data Analyst</h4>
+
+              <span>2025 — 2024</span>
+
+              <p class="timeline-text">
+                Used excel in different areas such as Data entry and Organization, calculations
+                for both simple and complex problems, Plotting graphs and charts and Autosum features
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Freelancer</h4>
+
+              <span>2023 — 2023</span>
+
+              <p class="timeline-text">
+                Writing articles
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Freelancer</h4>
+
+              <span>2021 — 2021</span>
+
+              <p class="timeline-text">
+                Writing articles
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Data Analytics</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python Programing</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Artificial Intelligence</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Data Analytics</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Artificial Intelligence</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Data Analytics</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/kanyi-Gabriel">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/sql.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">SQL</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data analytics">
+              <a href="https://github.com/kanyi-Gabriel">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/excel2.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Excel</h3>
+
+                <p class="project-category">Data Analyticst</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="artificial intelligence">
+              <a href="https://github.com/kanyi-Gabriel">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/llm2.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Large Language models</h3>
+
+                <p class="project-category">Artificial intelligence</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/kanyi-Gabriel/Stegnography">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/steg.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Steganography</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="artificial intelligence">
+              <a href="https://github.com/kanyi-Gabriel">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/prompt.jpg" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Prompt Engineering</h3>
+
+                <p class="project-category">Artificial Intelligence</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="artificial intelligence">
+              <a href="https://github.com/kanyi-Gabriel/Simple-line-follower-using-arduino-uno">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/rob.jpg" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Robotics</h3>
+
+                <p class="project-category">Artificial Intelligence</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data analytics">
+              <a href="https://github.com/kanyi-Gabriel/Taitanic_data-analysis">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/analy.jpg" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Data Visualization</h3>
+
+                <p class="project-category">Data Analytics</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/kanyi-Gabriel/store-sales--prediction">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/time-series.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Time series Focusting</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="data analytics">
+              <a href="https://github.com/kanyi-Gabriel/EDA_analysis_of_world_Population">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./images/edaf.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">EDA Analysis</h3>
+
+                <p class="project-category">Data Analytics</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="https://medium.com/search?q=Towards+Data+Science+">
+
+                <figure class="blog-banner-box">
+                  <img src="./images/medium.png" alt="medium" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Data Scince</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Since september, 2024</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Towards Data Science</h3>
+
+                  <p class="blog-text">
+                    Publication that focuses on topics related to data science, machine learning, and artificial intelligence. 
+                    It provides a platform for professionals, researchers, and enthusiasts to share insights, tutorials, and thought 
+                    leadership articles.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.alxafrica.com/fellowship-community-old/?form=MG0AV3">
+
+                <figure class="blog-banner-box">
+                  <img src="./images/alx.jpg" alt="alx" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Tech</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">since may, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Alx Africa</h3>
+
+                  <p class="blog-text">
+                    The ALX Community is a vibrant network designed to empower individuals with skills and opportunities for career growth, 
+                    particularly in the tech and professional sectors. It offers access to world-class training programs, mentorship, and 
+                    networking opportunities.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://zindi.africa/">
+
+                <figure class="blog-banner-box">
+                  <img src="./images/zindi.jpg" alt="zindi" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Datascience</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Septeber, 2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Zindi Community</h3>
+
+                  <p class="blog-text">
+                    The Zindi Community is a dynamic platform designed to connect data scientists, AI practitioners, and organizations across Africa. 
+                    It offers: Competitions, Learning Resources, Networking Opportunities, Career Development
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.kaggle.com/learn">
+
+                <figure class="blog-banner-box">
+                  <img src="./images/kaggo.jpg" alt="kaggo" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Datascience</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">since April, 2021</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Kaggle Community</h3>
+
+                  <p class="blog-text">
+                    The Kaggle Community is a vibrant hub for data scientists, machine learning practitioners, and enthusiasts. 
+                    It offers a variety of resources and opportunities, including: Competitions, learning resources,Datasets,Kernels and Forum Discussions
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.youtube.com/@theschooloflifetv">
+
+                <figure class="blog-banner-box">
+                  <img src="./images/schoolOfLife.jpg" alt="school of life" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Psychology</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">since, September 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">School of life</h3>
+
+                  <p class="blog-text">
+                    The School of Life is a YouTube channel dedicated to exploring topics related to emotional intelligence, 
+                    self-understanding, and personal growth. It offers a wide range of content, including: Relationships and 
+                    Mental Health and Career and Life Skills
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="https://www.reddit.com/r/datascience/">
+
+                <figure class="blog-banner-box">
+                  <img src="./images/reddit.jpg" alt="redit icon" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Datascience</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">since may, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">r/datascience</h3>
+
+                  <p class="blog-text">
+                    The r/DataScience channel on Reddit is a community space where data science professionals, enthusiasts, 
+                    and learners engage in discussions, share resources, and explore topics related to data science. It often 
+                    features: Educational Content, Project Insights and Career Advice
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7959.918167036946!2d39.67998737940675!3d-4.028767380655338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ske!4v1735401840046!5m2!1sen!2ske" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://formsubmit.co/kanyigabriel@gmail.com" method="POST" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
