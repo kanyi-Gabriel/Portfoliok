@@ -338,6 +338,16 @@ main {
   margin-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+  .avatar-box {
+    /* This is the size for Phones */
+    width: 80px;
+    height: 80px;
+    margin-bottom: 0; /* Removes the bottom space on mobile */
+    flex-shrink: 0;   /* THIS IS THE KEY: It tells the image "DO NOT SHRINK!" */
+  }
+}
+
 .info-content .name {
   color: var(--white-2);
   font-size: var(--fs-3);
