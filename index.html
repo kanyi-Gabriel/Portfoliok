@@ -23,6 +23,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  
 </head>
 
 <body>
@@ -42,7 +44,10 @@
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./images/profile1.jpg" alt="Gabriel Kanyi", width="60">
+          <img 
+            src="./images/profile.jpg" 
+            alt="Gabriel Kanyi" 
+            style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;">
         </figure>
 
         <div class="info-content">
@@ -90,21 +95,6 @@
 
               <a href="tel:+254 716978786" class="contact-link">+254 716978786</a>
             </div>
-
-          </li>
-
-          <li class="contact-item">
-
-            <div class="icon-box">
-              <ion-icon name="calendar-outline"></ion-icon>
-            </div>
-
-            <div class="contact-info">
-              <p class="contact-title">Birthday</p>
-
-              <time datetime="2002-07-22">July 22, 2002</time>
-            </div>
-
           </li>
 
           <li class="contact-item">
@@ -204,54 +194,46 @@
       <article class="about  active" data-page="about">
 
         <header>
-          <h2 class="h2 article-title">Bio</h2>
+          <h2 class="h2 article-title">About Me</h2>
         </header>
 
         <section class="about-text">
           <p>
-            Gabriel is an electrical engineer with a strong passion for data, technology, and computing.
-            He is driven by the pursuit of innovation and is dedicated to building cutting-edge solutions 
-            that push the boundaries of what’s possible in the modern technological landscape. Gabriel is 
-            committed to continuous learning and stays up to date with the latest advancements in data science, 
-            artificial intelligence, and emerging technologies.
+            Hello! I’m Gabriel Kanyi, a Data Scientist passionate about building complete, end-to-end 
+            data solutions.
           </p>
-
           <p>
-            He thrives in team-oriented environments and enjoys working on interdisciplinary projects that leverage 
-            technology to solve real-world problems. Gabriel also possesses strong communication skills, enabling him 
-            to effectively convey technical concepts to non-technical stakeholders and keep them engaged and informed 
-            throughout the project lifecycle. 
+            My focus isn't just on finding insights in data; it's on building the robust tools and applications 
+            that bring those insights to life. I specialize in using Python, SQL, and machine learning to create 
+            predictive models and deploying them as scalable, full-stack web applications with Django and Docker
           </p>
+          <h3>My Story: From Engineering to Data</h3>
+          <p>
+            My journey into data began with a unique foundation: Electrical and Electronic Engineering. As a final-year
+            student at the Technical University of Mombasa, I developed a deep understanding of complex systems, automation, 
+            and hardware. I’ve programmed Siemens PLCs to manage traffic flow and built Arduino-based IoT systems to regulate 
+            water supplies.
+          </p>
+          <p>
+
+            This engineering mindset—focused on efficiency, systems-thinking, and building things that work—is the same one I 
+            now apply to the world of data. I saw a powerful opportunity to merge physical automation with intelligent, data-driven 
+            decisions. To bridge this gap, I pursued formal Data Science certifications from ALX Africa and WorldQuant University, 
+            solidifying my expertise in turning raw data into actionable, automated solutions.
+          </p>
+          <h3>My Goal</h3>
+          <p>
+            I am always diving deeper into machine learning research and exploring new ways to build scalable, data-driven systems. 
+            I am currently seeking opportunities where I can apply my unique blend of engineering problem-solving and data science 
+            expertise to help a team build impactful, intelligent applications.
+
+
+            If you have a project in mind or believe my skills would be a good fit for your team, please don't hesitate to connect!
+          </p>
+  
 
         </section>
-        <header>
-          <h2 class = "h2 article-title">Elevator Pitch</h2>
-        </header>
-       <section class = "about-text">
-        <p>
-          Hello, my name is Gabriel,  a passionate data scientist with a strong background in extracting meaningful 
-          insights from complex datasets to support data-driven decision-making. I specialize in using machine learning 
-          techniques to help businesses and organizations optimize their operations and strategy.
-
-        </p>
-        <p>
-          One of my key strengths is the ability to break down and solve complex problems, no matter how challenging they 
-          may seem. I also bring strong communication skills both in technical storytelling and  non-technical through 
-          excellent communication.
-        </p>
-
-        <p>
-          What truly sets me apart is my adaptability to new environments, a constant curiosity to stay ahead with emerging 
-          technologies, and a solid technical foundation ranging from Python programming to building robust machine learning models
-        </p>
-
-        <p>
-          I am confident that my skills will empower your organization to harness data for smarter decision-making and optimize workflows, 
-          making your team’s work more efficient and impactful.
-          If you’re seeking someone who is adaptable, solution-focused, and driven to create measurable results, I would love the opportunity 
-          to contribute to your team or collaborate on impactful projects.
-        </p>
-       </section>
+        
 
         <!--
           - service
@@ -259,24 +241,25 @@
 
         <section class="service">
 
-          <h3 class="h3 service-title">What I can Do</h3>
+          <h3 class="h3 service-title">What I Do</h3>
 
           <ul class="service-list">
 
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./images/Mlicon.jpg
-                " alt="ML icon" width="40">
+                <i class="fa-solid fa-brain"></i>
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Machine Learning</h4>
+                <h4 class="h4 service-item-title">Machine Learning & Predictive Modeling</h4>
 
                 <p class="service-item-text">
-                  Building predictive machine learning models for structured and unstructured datasets across various domains. 
-                  I have hands-on experience in developing image classification models using TensorFlow and Keras , leveraging 
-                  deep learning techniques such as Convolutional Neural Networks (CNNs) to achieve high accuracy in visual recognition tasks.
+                  Specializing in building, training, and evaluating robust predictive models to solve diverse business problems. 
+                  Expertise involves leveraging core ML libraries like Scikit-learn for classification and regression, as well as 
+                  TensorFlow and Keras for advanced deep learning tasks like image classification with CNNs. Proficient in the 
+                  complete modeling pipeline: from complex feature engineering and handling data imbalances to performing deep 
+                  statistical analysis with statsmodels and translating complex outputs into actionable insights.
                 </p>
               </div>
 
@@ -285,17 +268,19 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./images/analy.jpg" alt="Data Analytic icon" width="40">
+                <i class="fa-solid fa-chart-simple"></i>
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Data Analytics</h4>
+                <h4 class="h4 service-item-title">Data Analysis & Visualization</h4>
 
                 <p class="service-item-text">
-                  Proficient in cleaning, transforming, and visualizing data using Python libraries such as Pandas, 
-                  Matplotlib, and Seaborn. I perform exploratory data analysis (EDA) to uncover trends, 
-                  patterns, and correlations in complex datasets, and I create interactive dashboards and reports using 
-                  Microsoft Excel and Power BI to effectively communicate insights
+                  Expertise in transforming raw data into actionable insights. Proficient in leveraging SQL, Power BI, and Excel 
+                  to query and analyze complex datasets, building interactive dashboards that empower stakeholders to track key 
+                  metrics and make informed decisions. This process involves rigorously cleaning, transforming, and preparing 
+                  data using libraries like Pandas and NumPy. Highly proficient in creating compelling visualizations with Seaborn 
+                  and Matplotlib to reveal underlying trends and identify data-driven opportunities for improving efficiency and 
+                  reducing costs.
                 </p>
               </div>
 
@@ -304,17 +289,17 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./images/Mlicon.jpg" alt="Data Engineering" width="40">
+                <i class="fa-solid fa-database"></i>
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Data Extraction</h4>
+                <h4 class="h4 service-item-title">Database Management & SQL Analysis</h4>
 
                 <p class="service-item-text">
-                  I have strong proficiency in SQL for querying and managing relational databases. My skills include writing 
-                  complex SELECT statements, joining tables, aggregating data, and performing subqueries to extract meaningful 
-                  insights from large datasets. I use SQL effectively to support data analysis, reporting, and integration with 
-                  Python-based machine learning pipelines.
+                  Expertise in end-to-end database management, including architecting and creating efficient relational database
+                  schemas from the ground up. Proficient in complex SQL analysis, leveraging advanced joins, aggregations, and 
+                  subqueries to query large datasets. Proven ability to extract actionable, data-driven insights directly from 
+                  relational databases like MySQL and SQLite.
                 </p>
               </div>
 
@@ -323,19 +308,55 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./images/pythonic.jpg" alt="Python eveloper icon" width="40">
+                <i class="fa-solid fa-calculator"></i>
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Python Developer</h4>
+                <h4 class="h4 service-item-title">AI & Prompt Engineering</h4>
+                <p class="service-item-text">
+                  Expertise in designing and implementing sophisticated prompt engineering strategies to build intelligent, 
+                  conversational AI applications. Skilled at leveraging the OpenAI API to create specialized assistants, automate 
+                  complex workflows, and extract nuanced insights from unstructured text. Focus on crafting precise and context-aware 
+                  prompts to ensure reliable, accurate, and high-quality responses from Large Language Models.
+                </p>
+              </div>
+            </li>
+                
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <i class="fa-brands fa-docker"></i>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Containerization & MLOps</h4>
 
                 <p class="service-item-text">
-                  Proficient in using Python for machine learning , leveraging libraries such as Scikit-learn, TensorFlow, 
-                  and Keras to build and evaluate predictive models. My experience includes implementing supervised and unsupervised 
-                  learning algorithms, performing feature engineering, and optimizing models for performance and scalability
+                  Expertise in containerizing applications with Docker to ensure portability, scalability, and ease 
+                  of deployment. This practice creates consistent and reproducible environments, simplifying the workflow 
+                  from development to production. Proficiency in version control with Git and familiarity with foundational 
+                  AWS cloud principles enable a streamlined MLOps process.
                 </p>
               </div>
 
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <i class="fa-brands fa-python"></i>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web Application Development</h4>
+                <p class="service-item-text">
+                  Specializing in building robust, data-driven web applications using Django. Proficient in creating interactive 
+                  dashboards that serve live machine learning models, as well as developing secure, scalable backends capable of 
+                  hosting intelligent OpenAI-powered assistants. Expertise includes designing RESTful APIs for model serving and 
+                  efficiently managing all database interactions.
+                </p>
+              </div>
             </li>
 
           </ul>
@@ -356,9 +377,15 @@
             <li class="testimonials-item">
               <div class="content-card" data-testimonials-item>
 
-                <figure class="testimonials-avatar-box">
-                  <img src="./images/steve.jpg" alt="Steve Kanyi" width="20" data-testimonials-avatar>
-                </figure>
+               <figure class="testimonials-avatar-box">
+
+                  <img 
+                    src="https://ui-avatars.com/api/?name=Stephen+Kanyi&background=A67C00&color=fff" 
+                    alt="Stephen Kanyi" 
+                    data-testimonials-avatar
+                    style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover;">
+
+              </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Steve kanyi</h4>
 
@@ -377,7 +404,13 @@
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="./images/njoro.jpg" alt="Peter Kanyi" width="60" data-testimonials-avatar>
+
+                  <img 
+                    src="https://ui-avatars.com/api/?name=Peter+Kanyi&background=A67C00&color=fff" 
+                    alt="Peter Kanyi" 
+                    data-testimonials-avatar
+                    style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover;">
+
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Peter Kanyi</h4>
@@ -397,7 +430,13 @@
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="./images/kanyiJames.jpg" alt="James Kanyi" width="60" data-testimonials-avatar>
+
+                  <img 
+                    src="https://ui-avatars.com/api/?name=James+Kanyi&background=A67C00&color=fff" 
+                    alt="James Kanyi" 
+                    data-testimonials-avatar
+                    style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover;">
+
                 </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>James Kanyi</h4>
@@ -417,8 +456,14 @@
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="./images/kirui.jpg" alt="Colins Kirui" width="40" data-testimonials-avatar>
-                </figure>
+
+                    <img 
+                      src="https://ui-avatars.com/api/?name=Collins+Kirui&background=A67C00&color=fff" 
+                      alt="Collins Kirui" 
+                      data-testimonials-avatar
+                      style="width: 60px; height: 60px; border-radius: 50%; object-fit: cover;">
+
+                  </figure>
 
                 <h4 class="h4 testimonials-item-title" data-testimonials-title>Collins Kirui</h4>
 
@@ -488,7 +533,7 @@
           - clients
         -->
 
-        <section class="clients">
+        <!-- <section class="clients">
 
           <h3 class="h3 clients-title">Companies</h3>
 
@@ -532,7 +577,7 @@
 
           </ul>
 
-        </section>
+        </section> -->
 
       </article>
 
@@ -569,9 +614,7 @@
               <span>2021 - 2026</span>
 
               <p class="timeline-text">
-                Bachelor of Science in Electrical and Electronic Engineering:  Deals with the principles and applications of electricity, 
-                electronics, and electromagnetism. Specialized in the design and implementation of systems that regulate the behavior of 
-                other devices or systems. Key areas of study include C++ programming, Statistics, Mathmatics and Signal Processing
+                Bachelor of Science in Electrical and Electronic Engineering
               </p>
 
             </li>
@@ -585,7 +628,7 @@
               <span>2025 - 2026</span>
 
               <p class="timeline-text">
-                Data Science
+                Data Science Program
               </p>
 
             </li>
@@ -599,22 +642,19 @@
               <span>2024 - 2025</span>
 
               <p class="timeline-text">
-                During my time studying Data Science at university, I gained hands-on experience in a variety of key areas essential to the field. 
-                The curriculum provided a strong foundation in both the technical and analytical aspects of data science, preparing me to work with 
-                data effectively and make data-driven decisions. Key areas f study include; SQL and database management, machine learning, data visuaization,
-                creating interactive dashboards and python programming
+                Data science Program
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Njabini Highschool</h4>
+              <h4 class="h4 timeline-item-title">Alx Africa</h4>
 
-              <span>2017 - 2020</span>
+              <span>2025 - 2026</span>
 
               <p class="timeline-text">
-                Acquired Kenya Certificate of Secondary School.
+                AWS cloud computing
               </p>
 
             </li>
@@ -721,11 +761,11 @@
 
               <div class="title-wrapper">
                 <h5 class="h5">Python Programing</h5>
-                <data value="70">70%</data>
+                <data value="90">90%</data>
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 70%;"></div>
+                <div class="skill-progress-fill" style="width: 90%;"></div>
               </div>
 
             </li>
@@ -733,12 +773,61 @@
             <li class="skills-item">
 
               <div class="title-wrapper">
-                <h5 class="h5">Machine Learning</h5>
-                <data value="75">75%</data>
+                <h5 class="h5">Django & Backend Development</h5>
+                <data value="85">85%</data>
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 75%;"></div>
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">AWS Cloud Architecture</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Git and Version Control</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Docker and containerisation</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+            </li>
+
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Machine Learning</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
               </div>
 
             </li>
@@ -751,7 +840,7 @@
               </div>
 
               <div class="skill-progress-bg">
-                <div class="skill-progress-fill" style="width: 80%;"></div>
+                <div class="skill-progress-fill" style="width:80%;"></div>
               </div>
 
             </li>

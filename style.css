@@ -540,9 +540,11 @@ main {
   z-index: -1;
 }
 
-.service-icon-box { margin-bottom: 10px; }
+.service-icon-box { margin-bottom: 10px; text-align: center;}
 
-.service-icon-box img { margin: auto; }
+.service-icon-box i { 
+  font-size: 40px;
+  color: #B8860B;}
 
 .service-content-box { text-align: center; }
 
